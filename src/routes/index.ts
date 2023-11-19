@@ -1,6 +1,6 @@
 import { FastifyInstance } from "fastify";
 
-const indexRoute =async (fastify: FastifyInstance) => {
+const indexRoute = async (fastify: FastifyInstance) => {
     fastify.get('/', async () => {
         return { message: 'Hello world!' }
     })
